@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freebie</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="shortcut icon" type="image/svg" href="./Imgs/ui__icon.svg" />
+  </head>
+  <body>
+    <section class="registration">
+      <div class="registration__wrapper">
+        <img
+          class="registration__img"
+          src="./Imgs/title__image.webp"
+          alt="title image"
+        />
+        <p class="registration__author">
+          Photo by
+          <a class="registration__name" href="#">Alexandr Popadin </a>
+        </p>
+        <div class="registration__data-wrapper">
+          <div class="container">
+            <div class="registration__icon-wrapper">
+              <img
+                class="registration__icon"
+                src="./Imgs/ui__icon.svg"
+                alt="ui icon"
+              />
+              <img
+                class="registration__icon-text"
+                src="./Imgs/ui__icon-text.svg"
+                alt="ui"
+              />
+            </div>
+            <div class="registration__welcome-wrapper">
+              <p class="registration__welcome-text">Nice to see you again</p>
+              <form action="" method="get">
+                <p class="registration__label">
+                  <label for="Email">Login</label>
+                </p>
+                <p>
+                  <input
+                    class="registration__input"
+                    type="email"
+                    required
+                    placeholder="Email or phone number"
+                  />
+                </p>
+                <p class="registration__label">
+                  <label for="password">Password</label>
+                </p>
+                <p class="registration__input-password">
+                  <input
+                    class="registration__input"
+                    type="password"
+                    required
+                    minlength="4"
+                    maxlength="8"
+                    size="8"
+                    placeholder="Enter password"
+                  />
+                  <button type="button">
+                    <img
+                      class="registration__password-icon"
+                      src="./Imgs/password.svg"
+                      alt="show password"
+                    />
+                  </button>
+                </p>
+                <div class="registration__forgot-wrapper">
+                  <div class="registration__remember-me-wrapper">
+                    <div class="registration__switcher">
+                      <button class="registration__switcher-active">
+                        <img src="./Imgs/Knob-Icon.svg" alt="switcher" />
+                      </button>
+                    </div>
+                    <p class="registration__remember-me">Remember me</p>
+                  </div>
+                  <p class="registration__forgot-password">
+                    <a href="#">Forgot password?</a>
+                  </p>
+                </div>
+                <button type="submit" class="registration__forgot-button">
+                  Sign in
+                </button>
+                <img
+                  class="registration__line"
+                  src="./Imgs/line.svg"
+                  alt="line"
+                />
+                <button type="submit" class="registration__google-button">
+                  <img
+                    class="registration__google-icon"
+                    src="./Imgs/google__icon.svg"
+                    alt="google-icon"
+                  />
+                  Or sign in with Google
+                </button>
+                <p class="registration__form-text">
+                  Dont have an account?
+                  <a href="#" class="registration__form-sign-up">
+                    Sign up now</a
+                  >
+                </p>
+              </form>
+            </div>
+            <!-- Нижний логотип для мобилки  -->
+            <div class="registration__icon-wrapper500">
+              <img
+                class="registration__icon500"
+                src="./Imgs/ui__icon.svg"
+                alt="ui icon"
+              />
+              <img
+                class="registration__icon-text500"
+                src="./Imgs/ui__icon-text.svg"
+                alt="ui"
+              />
+            </div>
+            <!-- Нижний логотип для мобилки  -->
+            <div class="registration__bottom-label-wrapper">
+              <div class="registration__bottom-icon-wrapper">
+                <img
+                  class="registration__bottom-icon"
+                  src="./Imgs/Figma__icon.svg"
+                  alt="figma-icon"
+                />
+                <p class="registration__bottom-link">
+                  <a href="#">@uiunicorn</a>
+                </p>
+              </div>
+              <p class="registration__bottom-text">© Perfect Login 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

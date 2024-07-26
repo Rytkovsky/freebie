@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 48px;
+  max-width: 456px;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  color: inherit;
+  font-size: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  outline: 0;
+}
+
+select {
+  color: inherit;
+  appearance: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  color: inherit;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin: 0 auto;
+    padding: 24px 16px 16px;
+    max-width: 375px;
+    width: 100%;
+  }
+}
+.registration__wrapper {
+  display: flex;
+  position: relative;
+}
+.registration__img {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 24px 0 0 24px;
+  object-fit: cover;
+  object-position: center;
+}
+.registration__author {
+  position: absolute;
+  left: 48px;
+  bottom: 48px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+}
+.registration__name {
+  text-decoration-line: underline;
+}
+.registration__name:hover {
+  text-decoration: underline;
+}
+.registration__name:active {
+  color: black;
+}
+.registration__data-wrapper {
+  border-radius: 0 24px 24px 0;
+  background: #fff;
+  width: 100%;
+}
+.registration__icon {
+  width: 48px;
+  height: 48px;
+}
+.registration__icon-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 48px;
+}
+.registration__icon-text {
+  max-height: 14px;
+  margin-top: 10px;
+}
+.registration__welcome-text {
+  color: #1a1a1a;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+.registration__label {
+  max-width: 328px;
+  padding: 0 16px;
+  margin-bottom: 8px;
+  color: #333;
+  font-family: "Sf-pro-display";
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+}
+.registration__input {
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 0.5px solid #e5e5e5;
+  background: #f2f2f2;
+  width: 100%;
+  height: 48px;
+  padding-left: 16px;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 20px;
+}
+.registration__input-password {
+  position: relative;
+  max-height: 48px;
+}
+.registration__password-icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  transition: 0.5s;
+}
+.registration__password-icon:hover {
+  filter: invert(0%) sepia(6%) saturate(7475%) hue-rotate(284deg) brightness(94%) contrast(106%);
+}
+.registration__forgot-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+.registration__remember-me-wrapper {
+  display: flex;
+  height: 20px;
+  gap: 3px;
+}
+.registration__switcher {
+  background-color: #e5e5e5;
+  padding-right: 25px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.registration__switcher:hover {
+  background: black;
+  padding-left: 25px;
+  padding-right: 0;
+}
+.registration__remember-me {
+  color: #1a1a1a;
+  font-family: "Sf-pro-display";
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+}
+.registration__forgot-password {
+  color: #007aff;
+  font-family: "Sf-Pro-Display";
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+.registration__forgot-password:hover {
+  text-decoration: underline;
+}
+.registration__forgot-password:active {
+  color: blue;
+}
+.registration__forgot-button {
+  padding: 10px 24px;
+  border-radius: 6px;
+  background: #007aff;
+  width: 100%;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  margin-bottom: 16px;
+  transition: 0.5s;
+}
+.registration__forgot-button:hover {
+  background-color: #333333;
+}
+.registration__google-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  border-radius: 6px;
+  background: #333333;
+  padding: 10px 16px;
+  color: #fff;
+  font-family: "Sf-pro-display";
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  width: 100%;
+  margin-top: 24px;
+  transition: 0.5s;
+}
+.registration__google-icon {
+  width: 20px;
+  height: 20px;
+}
+.registration__google-button:hover {
+  background-color: #007aff;
+}
+.registration__form-text {
+  margin-top: 24px;
+  text-align: center;
+  color: #1a1a1a;
+  font-family: "Sf-pro-display";
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+}
+.registration__form-sign-up {
+  color: #007aff;
+}
+.registration__form-sign-up:hover {
+  text-decoration: underline;
+}
+.registration__form-sign-up:active {
+  color: blue;
+}
+.registration__bottom-label-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 220px;
+  align-items: center;
+}
+.registration__bottom-icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.registration__bottom-icon {
+  width: 24px;
+  height: 24px;
+}
+.registration__bottom-link {
+  color: #007aff;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+}
+.registration__bottom-link:hover {
+  text-decoration: underline;
+}
+.registration__bottom-link:active {
+  color: blue;
+}
+.registration__bottom-text {
+  color: #666;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+}
+@media screen and (min-width: 501px) {
+  .registration__icon-wrapper500 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .registration__img {
+    display: none;
+  }
+  .registration__author {
+    display: none;
+  }
+  .registration__data-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .registration__icon-wrapper {
+    display: none;
+  }
+  .registration__label {
+    display: none;
+  }
+  .registration__line {
+    width: 100%;
+  }
+  .registration__icon-wrapper500 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 70px;
+  }
+  .registration__bottom-label-wrapper {
+    margin-top: 70px;
+  }
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-SemiBold.ttf"), url("../fonts/Poppins-SemiBold.woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf"), url("../fonts/Roboto-Regular.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Bold.woff);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Sf-pro-display;
+  src: url("../fonts/SF-Pro-Display-Regular.ttf"), url("../fonts/SF-Pro-Display-Regular.woff");
+  font-weight: 400;
+}/*# sourceMappingURL=global.css.map */

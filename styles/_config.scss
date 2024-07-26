@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 48px;
+  max-width: 456px;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  color: inherit;
+  font-size: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  outline: 0;
+}
+
+select {
+  color: inherit;
+  appearance: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  color: inherit;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin: 0 auto;
+    padding: 24px 16px 16px;
+    max-width: 375px;
+    width: 100%;
+  }
+  
+}
