@@ -173,6 +173,11 @@ p {
   padding-left: 25px;
   padding-right: 0;
 }
+.registration__switcher:active {
+  background: black;
+  padding-left: 25px;
+  padding-right: 0;
+}
 .registration__remember-me {
   color: #1a1a1a;
   font-family: "Sf-pro-display";
@@ -319,6 +324,10 @@ p {
     align-items: center;
     gap: 8px;
     margin-top: 70px;
+  }
+  .registration__icon500 {
+    width: 40px;
+    height: 40px;
   }
   .registration__bottom-label-wrapper {
     margin-top: 70px;

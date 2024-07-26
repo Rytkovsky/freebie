@@ -138,6 +138,12 @@
     padding-right: 0;
   }
 
+  &__switcher:active {
+    background: black;
+    padding-left: 25px;
+    padding-right: 0;
+  }
+
   &__remember-me {
     color: #1a1a1a;
     font-family: "Sf-pro-display";
@@ -311,6 +317,11 @@
       align-items: center;
       gap: 8px;
       margin-top: 70px;
+    }
+
+    &__icon500 {
+      width: 40px;
+      height: 40px;
     }
 
     &__bottom-label-wrapper {
